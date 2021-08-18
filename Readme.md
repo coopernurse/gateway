@@ -1,4 +1,4 @@
-<img src="http://tjholowaychuk.com:6000/svg/title/APEX/GATEWAY">
+# gateway
 
 Package gateway provides a drop-in replacement for net/http's `ListenAndServe` for use in [AWS Lambda](https://aws.amazon.com/lambda/) & [API Gateway](https://aws.amazon.com/api-gateway/), simply swap it out for `gateway.ListenAndServe`. Extracted from [Up](https://github.com/apex/up) which provides additional middleware features and operational functionality.
 
@@ -9,13 +9,13 @@ There are two versions of this library, version 1.x supports AWS API Gateway 1.0
 To install version 1.x for REST APIs. 
 
 ```
-go get github.com/apex/gateway
+go get github.com/wolfeidau/gateway
 ```
 
 To install version 2.x for HTTP APIs. 
 
 ```
-go get github.com/apex/gateway/v2
+go get github.com/wolfeidau/gateway/v2
 ```
 
 # Example
@@ -52,8 +52,6 @@ func hello(w http.ResponseWriter, r *http.Request) {
 
 ---
 
-[![GoDoc](https://godoc.org/github.com/apex/up-go?status.svg)](https://godoc.org/github.com/apex/gateway)
+[![GoDoc](https://godoc.org/github.com/wolfeidua/up-go?status.svg)](https://godoc.org/github.com/wolfeidua/gateway)
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 ![](https://img.shields.io/badge/status-stable-green.svg)
-
-<a href="https://apex.sh"><img src="http://tjholowaychuk.com:6000/svg/sponsor"></a>
