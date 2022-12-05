@@ -1,4 +1,4 @@
-module github.com/apex/gateway/v2
+module github.com/coopernurse/gateway/v2
 
 go 1.12
 
